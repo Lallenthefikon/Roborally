@@ -14,7 +14,7 @@ public:
 
 	void moveEntity(Entity* entity, sf::Vector2i newPos);
 
-	void getRects();
+	std::vector<sf::IntRect> getRects()const;
 private:
 
 	void clearMap();

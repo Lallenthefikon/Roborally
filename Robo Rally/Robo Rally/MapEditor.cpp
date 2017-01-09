@@ -9,7 +9,7 @@ mMap(map),
 mMapname(),
 mBackground(),
 mCamera(),
-mWorld(map)
+mWorld(map->getRects())
 {
 
 }

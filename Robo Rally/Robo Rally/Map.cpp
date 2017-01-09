@@ -37,6 +37,10 @@ void Map::moveEntity(Entity* entity, sf::Vector2i newPos){
 
 }
 
+std::vector<sf::IntRect> Map::getRects()const{
+	return mGridRects;
+}
+
 // Privates
 
 void Map::clearMap(){

@@ -1,8 +1,9 @@
 #pragma once
 
 #include <SFML\Graphics.hpp>
-
 #include <vector>
+
+#include "MapEditorRescorces.h"
 
 class World
 {
@@ -13,10 +14,12 @@ public:
 	World(Rects rects);
 	~World();
 
-	Sprites mGridSprites;
+	void render(sf::RenderWindow& window);
+
 
 private:
 
 	void loadSprites(Rects rects);
+	Sprites mGridSprites;
 };
 
