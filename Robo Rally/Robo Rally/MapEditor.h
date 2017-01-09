@@ -6,6 +6,7 @@
 #include "MapEditorRescorces.h"
 #include "variablesAndConstants.h"
 #include "Camera.h"
+#include "World.h"
 
 class MapEditor : public GameState
 {
@@ -28,6 +29,7 @@ private:
 
 	MapEditorRescorces mMapEditorRescorces;
 	EntitySelector mEntityselector;
+	World mWorld;
 
 	std::string mMapname;
 	Map* mMap;

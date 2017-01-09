@@ -1,10 +1,10 @@
-﻿Build started 1/9/2017 12:43:37 PM.
-     1>Project "C:\Users\Lallen\Documents\Robo Rally\Robo Rally\Robo Rally.vcxproj" on node 2 (Build target(s)).
+﻿Build started 1/9/2017 2:05:40 PM.
+     1>Project "C:\Users\Lallen\Documents\GitHub\Roborally\Robo Rally\Robo Rally\Robo Rally.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Lallen\Desktop\Lib's\SFML-2.4.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MapEditor.cpp
          MapEditor.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lallen\Documents\Robo Rally\Debug\Robo Rally.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Lallen\Desktop\Lib's\SFML-2.4.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lallen\Documents\Robo Rally\Debug\Robo Rally.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lallen\Documents\Robo Rally\Debug\Robo Rally.lib" /MACHINE:X86 Debug\AbstractGame.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lallen\Documents\GitHub\Roborally\Robo Rally\Debug\Robo Rally.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Lallen\Desktop\Lib's\SFML-2.4.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-network-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lallen\Documents\GitHub\Roborally\Robo Rally\Debug\Robo Rally.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lallen\Documents\GitHub\Roborally\Robo Rally\Debug\Robo Rally.lib" /MACHINE:X86 Debug\AbstractGame.obj
          Debug\Battlefield.obj
          Debug\Camera.obj
          Debug\Entity.obj
@@ -27,9 +27,10 @@
          Debug\Robot.obj
          Debug\Twitch_Robot.obj
          Debug\variablesAndConstants.obj
-         Robo Rally.vcxproj -> C:\Users\Lallen\Documents\Robo Rally\Debug\Robo Rally.exe
-     1>Done Building Project "C:\Users\Lallen\Documents\Robo Rally\Robo Rally\Robo Rally.vcxproj" (Build target(s)).
+         Debug\World.obj
+         Robo Rally.vcxproj -> C:\Users\Lallen\Documents\GitHub\Roborally\Robo Rally\Debug\Robo Rally.exe
+     1>Done Building Project "C:\Users\Lallen\Documents\GitHub\Roborally\Robo Rally\Robo Rally\Robo Rally.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.21
+Time Elapsed 00:00:01.93

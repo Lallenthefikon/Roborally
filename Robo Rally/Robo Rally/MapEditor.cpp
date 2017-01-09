@@ -8,7 +8,8 @@ mEntityselector(&mMapEditorRescorces, NrOfTextures, sf::Vector2f(0,0)),
 mMap(map),
 mMapname(),
 mBackground(),
-mCamera()
+mCamera(),
+mWorld(map)
 {
 
 }

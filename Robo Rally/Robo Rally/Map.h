@@ -13,6 +13,8 @@ public:
 	void addGridRect(sf::Vector2i startingPoint, sf::Vector2i size);
 
 	void moveEntity(Entity* entity, sf::Vector2i newPos);
+
+	void getRects();
 private:
 
 	void clearMap();
